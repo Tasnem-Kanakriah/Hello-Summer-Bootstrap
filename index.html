@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg ">
+        <div class="container">
+            <a class="ps-3 pt-3  navbar-brand" href="">
+                <img src="img/nav-logo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold p-2 p-lg-3 active" aria-current="page" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold p-2 p-lg-3" href="">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold p-2 p-lg-3" href="">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold p-2 p-lg-3" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold p-2 p-lg-3" href="">Contact</a>
+                    </li>
+                </ul>
+                <div class="search d-none d-lg-block ps-3 pe-3">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <a class="btn ps-4 pe-4 main-btn fw-bold rounded-pill" href="">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="landing d-flex justify-content-center align-items-center">
+        <div class="text-center">
+            <h1>Your Summer With Us</h1>
+            <p>BECOMES REFRESHING</p>
+            <a class="btn ps-4 pe-4 main-btn fw-bold rounded-pill mt-4" href="">Get Started</a>
+        </div>
+    </div>
+
+    <div class="features text-center mt-5 mb-5 pt-5 pb-5">
+        <div class="container">
+            <div class="main-title text-black-50 position-relative mb-5">
+                <img class="mb-4" src="img/fresh-juice.png" alt="">
+                <h2 class="text-uppercase">Fresh Juices Section</h2>
+                <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="row d-flex justify-content-center gap-5 pt-5">
+                <div class="col-mg-6 col-lg-3">
+                    <img src="img/apple-juice.png" alt="">
+                    <h3>Apple Juice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam doloremque necessitatibus
+                        perferendis iusto deleniti rerum laboriosam sint tempora tempore et!</p>
+                </div>
+                <div class="col-mg-6 col-lg-3">
+                    <img src="img/pineapple-juice.png" alt="">
+                    <h3>Pineapple Juice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam doloremque necessitatibus
+                        perferendis iusto deleniti rerum laboriosam sint tempora tempore et!</p>
+                </div>
+                <div class="col-mg-6 col-lg-3">
+                    <img src="img/orange-juice.png" alt="">
+                    <h3>Orange Juice</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam doloremque necessitatibus
+                        perferendis iusto deleniti rerum laboriosam sint tempora tempore et!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-work text-center pt-5 pb-5">
+        <div class="container">
+            <div class="main-title text-black-50 position-relative mb-5">
+                <img class="mb-4" src="img/fruit-salad.png" alt="">
+                <h2 class="text-uppercase">diverse  sweets section</h2>
+                <p>You can find what you want</p>
+            </div>
+            <ul class="list-unstyled d-flex gap-1 justify-content-center mt-5 mb-5">
+                <li class="active">All</li>
+                <li class="">Fruit Salad</li>
+                <li class="">Cake</li>
+                <li class="">Ice Cream</li>
+                <li class="">Juice</li>
+            </ul>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Fruit Salad">
+                        <img class="w-100 img-fluid rounded-3" src="img/1.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Cake">
+                        <img class="w-100 img-fluid rounded-3" src="img/2.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Juice">
+                        <img class="w-100 img-fluid rounded-3" src="img/3.webp" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Fruit Salad">
+                        <img class="w-100 img-fluid rounded-3" src="img/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Cake">
+                        <img class="w-100 img-fluid rounded-3" src="img/5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Ice Cream">
+                        <img class="w-100 img-fluid rounded-3" src="img/6.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Ice Cream">
+                        <img class="w-100 img-fluid rounded-3" src="img/7.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <div class="box position-relative mb-3 bg-white p-1 rounded-3" data-work="Juice">
+                        <img class="w-100 img-fluid rounded-3" src="img/8.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <a class="btn ps-4 pe-4 main-btn fw-medium rounded-pill text-uppercase" href="">Show More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="stuff pt-5 pb-5">
+        <div class="container">
+            <div class="main-title text-black-50 text-center position-relative mb-5">
+                <img class="mb-4" src="img/logo2.png" alt="">
+                <h2 class="text-uppercase">Our Services</h2>
+                <p>Lorem ipsum dolor sit</p>
+            </div>
+            <p class="description m-auto text-center mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Corporis eligendi voluptatem, facere maxime iusto assumenda, eveniet maiores ipsam sapiente odit at?
+                Totam iusto delectus natus sequi cupiditate veniam tempora ipsa?</p>
+            <div class="row align-items-center pt-5">
+                <div class="col-lg-6 mb-4 text-center text-md-start">
+                    <div class="text">
+                        <h4>Enim Qui Impedit</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem ut cumque, modi ullam
+                            blanditiis officiis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt rerum tempore nisi voluptate
+                            accusantium quae enim qui impedit, quo iure!</p>
+                        <a class="btn ps-4 pe-4 main-btn fw-bold rounded-pill" href="">Contact</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="img/logo5.jpg" class="rounded-4" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team text-center pb-5 pt-5">
+        <div class="container">
+            <h2>Recommendations Of Our Customers</h2>
+            <p class="text-black-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur in nam ipsa natus illo id dolorum
+                tempora autem ad odio similique praesentium provident, odit voluptatibus. Obcaecati doloribus itaque
+                debitis a.
+            </p>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 p-5">
+                    <div class="box rounded-5 bg-white">
+                        <img class="img-fluid" src="img/face1.jpg " alt="">
+                        <h4 class="p-1">Dylan Wang</h4>
+                        <blockquote class="p-3">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, esse!"
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-5">
+                    <div class="box rounded-5 bg-white">
+                        <img class="img-fluid" src="img/face2.jpg" alt="">
+                        <h4 class="p-1">Bae Suzy</h4>
+                        <blockquote class="p-3">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, esse!"
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-5">
+                    <div class="box rounded-5 bg-white">
+                        <img class="img-fluid" src="img/face3.jpg" alt="">
+                        <h4 class="p-1">Lee Jong Suk</h4>
+                        <blockquote class="p-3">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, esse!"
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 p-5">
+                    <div class="box rounded-5 bg-white">
+                        <img class="img-fluid" src="img/face4.jpg" alt="">
+                        <h4 class="p-1">Zhao Lu Si</h4>
+                        <blockquote class="p-3">"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, esse!"
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="techs pt-5 pb-5 text-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo1.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo3.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo1.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo3.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo1.png" alt="">
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-3 mb-3">
+                    <img src="img/logo3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="project text-center pt-5 pb-5 ">
+        <h2>Order From Our Store Now</h2>
+        <p class="text-black-50 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptatibus delectus explicabo a
+            maxime reprehenderit saepe. Beatae culpa vel nemo. Voluptatem excepturi quam magnam fuga inventore, eum
+            atque aliquid nihil.</p>
+        <div class="d-flex justify-content-center mt-5">
+            <a class="btn ps-4 pe-4 main-btn fw-medium rounded-pill text-uppercase" href="">Order Now</a>
+        </div>
+    </div>
+
+    <div class="blog pt-5 pb-5">
+        <div class="container">
+            <div class="main-title text-black-50 text-center position-relative mb-5">
+                <img class="mb-4" src="img/logo4.png" alt="">
+                <h2 class="text-uppercase">Our Customer Stories</h2>
+                <p>Share Your Stories With Us In Our Store</p>
+            </div>
+            <div class="row pt-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/un1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Story Zhao Lu Si</h5>
+                            <span>Mar 1,2020</span>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/un2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Story Lee Jong Suk </h5>
+                            <span>Jan 29,2024</span>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card">
+                        <img src="img/un3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Story Bae Suzy</h5>
+                            <span>July 07,2023</span>
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-5">
+                <a class="btn ps-4 pe-4 main-btn fw-medium rounded-pill text-uppercase" href="">More Stories</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe pt-5 pb-5 text-center text-md-start">
+        <div class="container">
+            <form class="row align-items-center">
+                <div class="col-md-6 col-lg-3">
+                    <h3 class="fw-bold fs-5 mb-3">Subscribe To Our Newsletter :</h3>
+                </div>
+                <div class="col-md-6 col-lg-7 mb-4 ">
+                    <input class="w-100 text-light p-2 bg-transparent" type="text" placeholder="Enter Your email">
+                </div>
+                <div class="col-md-6 col-lg-2 ">
+                    <div class="d-flex justify-content-center">
+                        <a class="btn ps-4 pe-4 main-btn fw-medium rounded-pill text-uppercase" href="">Subscribe</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer pt-5 pb-4 text-black-50 text-center text-md-start">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="info">
+                        <img src="img/nav-logo.png" alt="" class="mb-4">
+                        <p class="mb-4">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, quae dolorem iure incidunt libero ipsa.
+                        </p>
+                        <div class="copy-right">
+                            Created By <span>Tasnem Kanakriah</span>
+                            <div>&copy; 2024 - <span>Hello Summer </span>Inc</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-3">
+                    <div class="links">
+                        <h5>Links</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Home</li>
+                            <li>Our Services</li>
+                            <li>Location</li>
+                            <li>Testimontial</li>
+                            <li>Support</li>
+                            <li>Terms and Condation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-2 mb-3">
+                    <div class="links">
+                        <h5>About Us</h5>
+                        <ul class="list-unstyled lh-lg">
+                            <li>Sign In</li>
+                            <li>Register</li>
+                            <li>About Us</li>
+                            <li>Blog</li>
+                            <li>Contact Us</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="contact">
+                        <h5>Contact Us</h5>
+                        <p class="lh-lg mt-3 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                        <a class="btn w-100 ps-4 pe-4 main-btn fw-medium rounded-pill" href="tasnemkanakriah9302@gmail.com">tasnemkanakriah9302@gmail.com</a>
+                        <ul class="d-flex mt-4 list-unstyled gap-3 justify-content-center">
+                            <li>
+                                <a class="d-block" href="https://www.facebook.com/profile.php?id=100070005272239">
+                                    <i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block" href="https://www.linkedin.com/in/tasnem-kanakriah">
+                                    <i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block" href="https://github.com/tasnem-kanakriah">
+                                    <i class="fa-brands fa-github fa-lg github rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="d-block" href="https://t.me/tasnem_0711">
+                                    <i class="fa-brands fa-telegram fa-lg telegram rounded-circle p-2"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="all.min.js"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>

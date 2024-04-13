@@ -1,0 +1,246 @@
+:root {
+    --main-color : #b5bcec; 
+    --secondary-color : #1C76B9; 
+    --white-color : #fff; 
+}
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* ? Start Navbar */
+.navbar {
+    background-color: var(--main-color);
+}
+.navbar-nav .nav-item .nav-link {
+    color: var(--white-color) !important;
+    font-size: 18px;
+}
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .nav-link:hover {
+    color: var(--secondary-color) !important ;
+}
+.navbar-brand img {
+    width: 90px;
+    height: 50px;
+}
+.search {
+    border-left: 2px solid  var(--secondary-color);
+}
+.search svg {
+    color: var(--secondary-color);
+}
+.navbar .navbar-toggler {
+    color: var(--white-color);
+    font-size: 26px;
+    border: 2px solid var(--white-color) ;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    color: var(--secondary-color);
+    border: 3px solid var(--secondary-color);
+}
+.main-btn {
+    background-color: var(--white-color) !important;
+    color: var(--secondary-color) !important;
+}
+.main-btn:hover {
+    background-color: var(--secondary-color) !important;
+    color: var(--white-color) !important;
+}
+/* ! End Navbar */
+
+/* ? Start Landing */
+.landing {
+    background-color: var(--main-color);
+    min-height: calc(100vh - 76px);
+}
+.landing div {
+    color: var(--white-color);
+}
+.landing div h1 {
+    text-shadow: 3px 5px var(--secondary-color),
+        5px 5px var(--secondary-color);
+    font-size: 70px;
+}
+.landing div p {
+    text-shadow: 3px 3px var(--secondary-color),
+        3px 3px var(--secondary-color);
+    font-size: 24px;
+}
+/* ! End Landing */
+
+/* ? Start  */
+.main-title img {
+    width: 140px;
+    height: 140px;
+}
+.main-title h2 {
+    color: var(--secondary-color);
+}
+.main-title p {
+    font-weight: 600;
+}
+.main-title::after {
+    content: '';
+    width: 120px;
+    height: 2px;
+    background-color: var(--secondary-color);
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.features .row h3 {
+    color: var(--secondary-color);
+}
+.features .row div:nth-of-type(1) img {
+    width: 120px;
+    height: 200px;
+}
+.features .row div:nth-of-type(2) img {
+    width: 200px;
+    height: 200px;
+}
+.features .row div:nth-of-type(3) img {
+    width: 180px;
+    height: 200px;
+}
+/* ! End  */
+
+/* ? Start Work */
+.our-work {
+    background-color: var(--main-color) ;
+}
+.our-work ul li {
+    color: var(--secondary-color);
+}
+.our-work ul .active {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+}
+.our-work ul li {
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.our-work ul li:not(.active):hover {
+    color: var(--white-color);
+    background-color: var(--secondary-color);
+    transition: .5s;
+}
+.box img {
+    height: 180px;
+    width: 300px;
+}
+.box {
+    overflow: hidden;
+}
+.our-work .box::before {
+    content: attr(data-work);
+    position: absolute;
+    background-color: #b5bcec8c;
+    border-radius: 8px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+    font-size: 30px;
+    font-weight: 600;
+    transition: 1s;
+    transform: translateY(calc(-100% - 8px));
+} 
+.our-work .box:hover::before {
+    transform: translateY(0);
+}
+/* ! End Work */
+
+/* ? Start Stuff */
+.stuff .description {
+    max-width: 500px;
+}
+.stuff .row img {
+    width: 80%;
+}
+.stuff .row h4 {
+    color: var(--secondary-color);
+}
+.stuff .row a, .blog a {
+    border: 2px solid var(--secondary-color);
+}
+/* ! End Stuff */
+
+/* ? Start Team */
+.team {
+    background-color: var(--main-color);
+}
+.team .box {
+    border: 2px solid var(--secondary-color);
+}
+.team h2 {
+    color: var(--secondary-color);
+}
+.team .row h4 {
+    border-top: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    background-color: var(--main-color);
+    color: var(--secondary-color);
+}
+.team .row blockquote {
+    color: var(--secondary-color);
+}
+.team img {
+    width: 100%;
+}
+/* ! End Team */
+
+.techs img {
+    width: 130px;
+}
+
+.project {
+    background-color: var(--main-color);
+}
+.project h2 {
+    color: var(--secondary-color);
+}
+
+
+.card img {
+    height: 200px;
+}
+
+
+.subscribe {
+    background-color: var(--main-color);
+}
+.subscribe input {
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+}
+.subscribe h3 {
+    color: var(--secondary-color);
+}
+.subscribe input:focus {
+    outline: none;
+}
+.subscribe ::placeholder {
+    color: var(--white-color);
+}
+
+.footer {
+    background-color: #ffe3bb;
+}
+.footer img {
+    width: 100px;
+}
+.footer span {
+    color: var(--secondary-color);
+}
+.contact li a  {
+    color: #7382e4 !important;
+}
